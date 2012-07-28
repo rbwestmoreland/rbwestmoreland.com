@@ -4,6 +4,6 @@ $(document).ready(function () {
     $('body').addClass('container');
     $('body > header, body > #content, body > footer').wrapAll('<section class="row-fluid" />');
     $('body > .row-fluid > header').addClass('span2');
-    $('body > .row-fluid > #content').addClass('span8');
+    $('body > .row-fluid > #content').addClass('span10');
     $('body > .row-fluid > footer').addClass('span12');
 });
