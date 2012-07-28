@@ -4,7 +4,7 @@ title: Introducing JenkinsHUD
 permalink:
  - introducing-jenkinshud
  - posts/introducing-jenkinshud
-date: 2012-03-16 00:00:00 00:00
+date: 2012-03-16 00:00:00 +00:00
 tags:
  - jenkinsci
  - jenkinshud
