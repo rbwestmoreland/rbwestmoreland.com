@@ -1,0 +1,16 @@
+head:
+ html:
+  - /_includes/head.html
+ styles:
+  - /styles/css/bootstrap.min.css
+  - /styles/css/default.css
+ scripts:
+  - /scripts/javascript/jquery-1.7.2.min.js
+  - /scripts/javascript/bootstrap.min.js
+body:
+ pre_content:
+   - /_includes/header.html
+ post_content:
+   - /_includes/footer.html
+ scripts:
+  - /scripts/javascript/default.js

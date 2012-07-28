@@ -1,0 +1,122 @@
+
+/****Footer****/
+footer
+{
+    text-align: center;
+    margin: 2em 0;
+}
+
+/****About****/
+body > .row-fluid > header .about
+{
+    margin-top: 1em;
+}
+
+body > .row-fluid > header .about .avatar img
+{
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #ccc;
+    opacity: 0.8;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body > .row-fluid > header .about .avatar img:hover
+{
+    opacity: 1;
+}
+
+body > .row-fluid > header .about .fullname
+{
+    margin: 0.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+body > .row-fluid > header .about .links
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 94px;
+}
+
+body > .row-fluid > header .about .links a
+{
+    margin: 0 .5em;
+}
+
+body > .row-fluid > header .about .links .github
+{
+    background-image: url('/images/github.png');
+    width: 16px;
+    height: 16px;
+    text-indent:-9999px;
+    display: inline-block;
+}
+
+body > .row-fluid > header .about .links .twitter
+{
+    background-image: url('/images/twitter.png');
+    width: 16px;
+    height: 16px;
+    text-indent:-9999px;
+    display: inline-block;
+}
+
+body > .row-fluid > header .about .links .rss
+{
+    background-image: url('/images/rss.png');
+    width: 16px;
+    height: 16px;
+    text-indent:-9999px;
+    display: inline-block;
+}
+
+/****Content****/
+#content
+{
+    padding: 1em 0em;
+}
+
+/****Home****/
+#content .posts .post
+{
+    padding: 1em 0em;
+    border-bottom: 1px solid #eee;
+}
+
+#content .pagination a
+{
+    border-left-width: 1px;
+}
+
+#content .pagination .next
+{
+    float: right;
+}
+
+#content .pagination .previous
+{
+    float: left;
+}
+
+/****Post****/
+#content > .post .title
+{
+    border-bottom: 1px solid #eee;
+}
+
+#content > .post .pubdate
+{
+    color: #888;
+}
+
+#content > .post .body
+{
+    margin: 1.5em 0 2em 0;
+}
