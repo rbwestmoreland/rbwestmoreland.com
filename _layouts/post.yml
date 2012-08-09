@@ -12,5 +12,6 @@ body:
    - /_includes/header.html
  post_content:
    - /_includes/footer.html
+   - /_includes/gaug.es.html
  scripts:
   - /scripts/javascript/default.js
