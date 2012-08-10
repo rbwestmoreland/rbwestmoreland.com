@@ -14,6 +14,8 @@ body > .row-fluid > header .about
 
 body > .row-fluid > header .about .avatar img
 {
+    height: 75px;
+    width: 75px;
     border-radius: 5px;
     box-shadow: 0px 0px 15px #ccc;
     opacity: 0.8;
@@ -44,36 +46,29 @@ body > .row-fluid > header .about .links
     width: 100px;
 }
 
+
 body > .row-fluid > header .about .links a
 {
-    margin: 0 .5em;
+    margin: 0 3px;
+    width: 16px;
+    height: 16px;
+    text-indent:-9999px;
+    display: inline-block;
 }
 
-body > .row-fluid > header .about .links .github
+body > .row-fluid > header .about .links a.github
 {
     background-image: url('/images/github.png');
-    width: 16px;
-    height: 16px;
-    text-indent:-9999px;
-    display: inline-block;
 }
 
-body > .row-fluid > header .about .links .twitter
+body > .row-fluid > header .about .links a.twitter
 {
     background-image: url('/images/twitter.png');
-    width: 16px;
-    height: 16px;
-    text-indent:-9999px;
-    display: inline-block;
 }
 
-body > .row-fluid > header .about .links .rss
+body > .row-fluid > header .about .links a.rss
 {
     background-image: url('/images/rss.png');
-    width: 16px;
-    height: 16px;
-    text-indent:-9999px;
-    display: inline-block;
 }
 
 /****Content****/
