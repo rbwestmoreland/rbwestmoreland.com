@@ -11,4 +11,9 @@ Projects
 * [Lighthouse](https://github.com/rbwestmoreland/lighthouse) - An AppHarbor build dashboard  
 * [Design Patterns](/design-patterns) - A collection of design patterns examples in C#  
 
-Check out the full list of my open source projects [on GitHub](https://github.com/rbwestmoreland).  
+NuGet Packages
+===
+* [System.Clock](http://nuget.org/packages/System.Clock) - A testable alternative to DateTime.Now  
+* [Stripe.Webhooks.Module](http://nuget.org/packages/Stripe.Webhooks.Module) - A simple no config http module that listens for stripe.com webhooks and provides a simple subscription model  
+
+Check out the full list of my open source projects on [GitHub](https://github.com/rbwestmoreland).  
