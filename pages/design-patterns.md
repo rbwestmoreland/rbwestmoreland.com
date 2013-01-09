@@ -1,5 +1,6 @@
 ---
 layout: home
+title: design patterns
 permalink:
  - design-patterns
  - properly-implementing-the-prototype-pattern
