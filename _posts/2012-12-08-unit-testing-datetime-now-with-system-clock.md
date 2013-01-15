@@ -65,7 +65,7 @@ Here is the same class, refactored to use `System.Clock`:
         Assert.AreEqual(Clock.Now, actual.CreatedOn);
     }
 
-This unit test will pass ***all the time***. Why? That's because the behavior of `Clock.Now` has be isolated and is now deterministic. By calling `Clock.Freeze()`, we stop time. Now, each call to `Clock.Now` will always be the same. Now we can unit test with confidence.
+This unit test will pass ***all the time***. Why? That's because the behavior of `Clock.Now` has been isolated and is now deterministic. By calling `Clock.Freeze()`, we stop time. Now, each call to `Clock.Now` will always be the same. Now we can unit test with confidence.
 - - -
 
 ## More  
