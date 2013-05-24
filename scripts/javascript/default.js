@@ -16,14 +16,18 @@ app.bootstrap.apply = function() {
 //google code prettify
 app.prettyPrint = app.prettyPrint || {};
 app.prettyPrint.apply = function() {
-    $('pre').addClass('prettyprint');
+    app.prettyPrint.load();
+    app.prettyPrint.run();
+};
+app.prettyPrint.load = function() {
     $('head').append('<script src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></'+'script>');
     $('head').append('<link href="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css" rel="stylesheet" type="text/css">');
-    app.prettyPrint.run();  
 };
 app.prettyPrint.run = function() {
     if(window.prettyPrint)
+        $('pre').addClass('prettyprint');
         window.prettyPrint();
+        $('pre').removeClass('prettyprint');
     else
         setTimeout(app.prettyPrint.run, 100);
 };
