@@ -24,12 +24,14 @@ app.prettyPrint.load = function() {
     $('head').append('<link href="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css" rel="stylesheet" type="text/css">');
 };
 app.prettyPrint.run = function() {
-    if(window.prettyPrint)
+    if(window.prettyPrint) {
         $('pre').addClass('prettyprint');
         window.prettyPrint();
         $('pre').removeClass('prettyprint');
-    else
+    }
+    else {
         setTimeout(app.prettyPrint.run, 100);
+    }
 };
 
 app.init = function() {
