@@ -22,8 +22,8 @@ app.prettyPrint.apply = function() {
     app.prettyPrint.run();  
 };
 app.prettyPrint.run = function() {
-    if(prettyPrint)
-        prettyPrint();
+    if(window.prettyPrint)
+        window.prettyPrint();
     else
         setTimeout(app.prettyPrint.run, 100);
 };
